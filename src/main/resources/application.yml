@@ -4,11 +4,7 @@ server:
 spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    jdbc-url: jdbc:mariadb://144.24.89.26:3306/budget_book
+    url: jdbc:mariadb://144.24.89.26:3306/budget_book
     username: root
     password: henry14
-
-mybatis:
-  mapper-locations: classpath:/mapper/*.xml
-  config-location: classpath:/mybatis-config.xml
 
